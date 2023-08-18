@@ -1,0 +1,8 @@
+public with sharing class test2ClassTest {
+    public with sharing class testClassTest {
+        @isTest static void getSumm() {
+    
+            Integer result = testClass.getSumm(1, 2);
+            Assert.areEqual(5, result);
+        }
+}
