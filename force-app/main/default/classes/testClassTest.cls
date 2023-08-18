@@ -1,3 +1,4 @@
+@IsTest
 public with sharing class testClassTest {
     @isTest static void getSumm() {
 
